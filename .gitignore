@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.token
+*.key
+*.pem
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Local model weights cache (prevent committing multi-GB weights)
+models/
+**/models/
+*.bin
+*.safetensors
+*.pt
+*.pth
